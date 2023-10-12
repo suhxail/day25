@@ -1,5 +1,6 @@
 import React from 'react'
 import CardData from './CardData'
+import AreaChart from './AreaChart'
 
 function Dashboard({ card }) {
 
@@ -103,7 +104,10 @@ function Dashboard({ card }) {
                             {/* <div className="chart-area">
                                 <canvas id="myAreaChart"></canvas> */}
 
-                            <div class="chart-area">
+                            {/* <AreaChart /> */}
+
+
+                            {/* <div class="chart-area">
                                 <div class="chartjs-size-monitor">
                                     <div class="chartjs-size-monitor-expand">
                                         <div class="">
@@ -117,7 +121,7 @@ function Dashboard({ card }) {
                                 </div>
                                 <canvas id="myAreaChart" style={{display: "block", width: "482px", height: "320px"}} width="482" height="320" class="chartjs-render-monitor"></canvas>
                                
-                            </div>
+                            </div> */}
 
                         </div>
                     </div>
